@@ -370,7 +370,7 @@ p, ul, li, span, label, input, textarea {
 }
 
 footer {
-    backgroundColor: var(--mainColor);
+    backgroundColor: var(--secondaryColor);
 }
 
 @media screen and (max-width: 1200px) {

@@ -78,6 +78,10 @@ p, ul, li, span, label, input, textarea {
     min-height: 10em;
 }
 
+.my-name {
+    color: var(--buttonColor);
+}
+
 .intro-wrapper {
     background-color: var(--secondaryColor);
     box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);

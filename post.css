@@ -1,5 +1,6 @@
 .post {
   display: flex;
+  font-size: 14px;
 }
 
 select:last-of-type {

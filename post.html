@@ -4,36 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Details</title>
+    <title>Jonathan Hobdell - Past Projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Expletus+Sans&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="default.css">
+    <link id="theme-style" rel="stylesheet" href="">
     <script src="https://kit.fontawesome.com/f28c9be83a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="nav-wrapper">
-        <div class="dots-wrapper">
-            <div class="browser-dot" id="dot-1"></div>
-            <div class="browser-dot" id="dot-2"></div>
-            <div class="browser-dot" id="dot-3"></div>
-        </div>
+    <div class="nav-wrapper">        
         <ul id="navigation">
+            <li>
+                <a href="https://jhobdell.github.io/portfolio/">Home</a>
+            </li>
+            <li>
+                <a href="#about-me">More About Me</a>
+            </li>
+            <li>
+                <a href="#project-overview">Projects Overview</a>
+            </li>
+            <li>
+                <a href="https://jhobdell.github.io/portfolio/post.html">Project Details</a>
+            </li>
             <li>
                 <a href="mailto:phyogaiom@gmail.com">Contact</a>
             </li>
         </ul>
     </div>
-    <h1>Under Construction</h1>
-    <div class="main-container">
-        <h3>IMDb Clone</h3>
-    </div>
-    <div class="main-container">
-        <h3>myTunes (iTunes Clone)</h3>
-    </div>
-    <div class="main-container">
-        <h3>Photography Portfolio Page</h3>
-    </div>
+    <section class="s1">        
+        <div class="main-container">
+            <h3>myTunes (iTunes Clone)</h3>
+            <div>
+                <div class="post">
+                    <a href="https://tourmaline-gelato-504c5c.netlify.app/"><img src="./imdb_clone.png" class="thumbnail"></a>
+                    <div class="post-preview">
+                        <h6 class="post-title">IMDb Clone</h6>
+                        <p class="post-intro">Not yet complete, this is a clone of the IMDb homepage in a similar vein to the follow-along projects completed with Traversy Media (see <a href="#learning_resources">Recommended Learning Resources)</a></p>
+                        <p class="post-intro">Using HTML, CSS, JS and jQuery (check the dropdown menus)</p>                                                                                
+                        <p class="post-intro">My plan is to expand on this with React when I'm comfortable with that language (to create and fill the relevant areas with repeatable components for celebrity photos, featured movies etc.  I also want to make the page responsive, as per the projects below.)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <h3>IMDb Clone</h3>
+            <div>
+                <div class="post">
+                    <a href="https://clever-starlight-19d8d6.netlify.app/"><img src="./iTunes_clone.png" class="thumbnail"></a>
+                    <div class="post-preview">
+                        <h6 class="post-title">iTunes Clone</h6>
+                        <p class="post-intro">An iTunes style music service page, done via a Traversy Media follow-along, including responsive layout</p>
+                        <p class="post-intro">Using HTML, CSS, and a bit of jQuery</p>   
+                        <p class="post-intro">Brad does some great follow-alongs on his channel.  Check out the HTML & CSS playlist <a href="https://www.youtube.com/playlist?list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU" target="_blank">here</a>.  There's nothing better than actually typing code for learning (even if it's not your own code).</p>                     
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="main-container">
+            <h3>Photography Portfolio Page</h3>
+            <div>
+                <div class="post">
+                    <a href="https://lustrous-marzipan-dbfdd3.netlify.app/"><img src="./Photograph_site.png" class="thumbnail"></a>
+                    <div class="post-preview">
+                        <h6 class="post-title">Photography Portfolio</h6>
+                        <p class="post-intro">A mockup of a photographer's portfolio, done in a mobile-first format, via a Traversy Media follow-along (see the YouTube link above).</p>
+                        <p  class="post-intro">Using HTML, CSS</p>    
+                        <p class="post-intro">Mobile-first is a design style where you create the page to be optimal for mobile devices first, and then make it scale up for larger screens.  Normally, responsive design does this the other way round, so this is responsive design in reverse, so to speak.</p>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="./theme.js"></script>
 </body>
 </html>

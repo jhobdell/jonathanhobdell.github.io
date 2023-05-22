@@ -371,12 +371,12 @@ p, ul, li, span, label, input, textarea {
 
 footer {
     background-color: var(--secondaryColor);
-    padding: 20px;
-    text-align: center;
+    padding: 20px;    
 }
 
 footer p {
     margin: 0;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {

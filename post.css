@@ -1,3 +1,7 @@
+.nav-wrapper {
+  border-radius: 0 !important
+}
+
 .post {
   display: flex;
   font-size: 14px;

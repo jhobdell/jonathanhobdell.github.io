@@ -1,3 +1,7 @@
+.post {
+  display: flex;
+}
+
 select:last-of-type {
   padding-bottom: 50px;
 }

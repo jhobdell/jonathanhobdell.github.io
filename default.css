@@ -369,6 +369,10 @@ p, ul, li, span, label, input, textarea {
     cursor: pointer;
 }
 
+footer {
+    backgroundColor: var(--mainColor);
+}
+
 @media screen and (max-width: 1200px) {
     .main-container {
         width: 95%;

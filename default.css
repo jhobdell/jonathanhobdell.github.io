@@ -371,8 +371,12 @@ p, ul, li, span, label, input, textarea {
 
 footer {
     background-color: var(--secondaryColor);
-    margin: 0;
     padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
 }
 
 @media screen and (max-width: 1200px) {

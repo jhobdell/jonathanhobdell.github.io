@@ -108,7 +108,11 @@ p, ul, li, span, label, input, textarea {
 }
 
 #navigation a {
-    color: var(--mainText);
+    color: #17a2b8;
+}
+
+#navigation a:hover {
+    font-weight: bold;
 }
 
 #navigation li {

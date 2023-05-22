@@ -6,7 +6,3 @@
   display: flex;
   font-size: 14px;
 }
-
-select:last-of-type {
-  padding-bottom: 50px;
-}

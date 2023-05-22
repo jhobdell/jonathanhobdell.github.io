@@ -365,6 +365,10 @@ p, ul, li, span, label, input, textarea {
     text-align: center;
 }
 
+#submit-btn:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1200px) {
     .main-container {
         width: 95%;

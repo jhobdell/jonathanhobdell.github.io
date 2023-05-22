@@ -362,6 +362,7 @@ p, ul, li, span, label, input, textarea {
     background-color: var(--buttonColor);
     border: none;
     border-radius: 10px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {

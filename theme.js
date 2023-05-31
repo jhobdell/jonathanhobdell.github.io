@@ -28,3 +28,23 @@ function setTheme(mode) {
     }
     localStorage.setItem('theme', mode);
 }
+
+const divs = document.querySelectorAll('.main-container');
+
+window.addEventListener('scroll', checkBoxes);
+
+checkBoxes();
+
+function checkBoxes() {
+    const triggerBottom = window.innerHeight / 5 * 4;
+
+    divs.forEach(div => {
+        const divTop = box.getBoundingClientRect().top;
+
+        if(divTop < triggerBottom) {
+            div.classList.add('show');
+        } else {
+            div.classList.remove('show');
+        }
+    })
+}

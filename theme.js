@@ -29,7 +29,7 @@ function setTheme(mode) {
     localStorage.setItem('theme', mode);
 }
 
-const divs = document.querySelectorAll('.main-container');
+const divs = document.querySelectorAll('.box');
 
 window.addEventListener('scroll', checkBoxes);
 
@@ -39,7 +39,7 @@ function checkBoxes() {
     const triggerBottom = window.innerHeight / 5 * 4;
 
     divs.forEach(div => {
-        const divTop = box.getBoundingClientRect().top;
+        const divTop = div.getBoundingClientRect().top;
 
         if(divTop < triggerBottom) {
             div.classList.add('show');
